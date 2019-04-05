@@ -1,4 +1,4 @@
-import Redux from './redux';
+import * as Redux from './redux/index';
 import Provider from './Provider';
 import connect from './connect';
 
