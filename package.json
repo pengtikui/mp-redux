@@ -1,0 +1,17 @@
+{
+  "name": "mp-redux",
+  "version": "0.0.1",
+  "description": "Wechat Mini Program bindings for Redux",
+  "main": "dist/mp-redux.js",
+  "miniprogram": "dist",
+  "repository": "https://github.com/pengtikui/mp-redux",
+  "author": "pengtikui",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^1.8.0"
+  }
+}
