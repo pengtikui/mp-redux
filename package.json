@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Wechat Mini Program bindings for Redux",
   "main": "dist/mp-redux.js",
-  "miniprogram": "dist",
+  "miniprogram": "dist/mp-redux.js",
   "repository": "https://github.com/pengtikui/mp-redux",
   "author": "pengtikui",
   "license": "MIT",
