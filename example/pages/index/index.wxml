@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="count">{{count}}</view>
+  <view class="btns">
+    <button bindtap="decrease">-</button>
+    <button bindtap="increase">+</button>
+  </view>
+</view>

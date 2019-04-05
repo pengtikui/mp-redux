@@ -1,0 +1,10 @@
+.count {
+  font-size: 80rpx;
+  font-weight: 500;
+}
+.btns {
+  display: flex;
+}
+button:first-child {
+  margin-right: 10rpx;
+}
