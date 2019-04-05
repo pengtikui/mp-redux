@@ -1,7 +1,7 @@
 # mp-redux
 
 [![npm](https://img.shields.io/npm/v/mp-redux.svg?style=flat-square)](https://www.npmjs.com/package/mp-redux)
-[![Bitbucket open issues](https://img.shields.io/bitbucket/issues/pengtikui/mp-redux.svg?style=flat-square)](https://github.com/pengtikui/mp-redux/issues)
+[![GitHub issues](https://img.shields.io/github/issues/pengtikui/mp-redux.svg?style=flat-square)](https://github.com/pengtikui/mp-redux/issues)
 [![GitHub](https://img.shields.io/github/license/pengtikui/mp-redux.svg?style=flat-square)](https://github.com/pengtikui/mp-redux/blob/master/LICENSE)
 
 Wechat Mini Program bindings for Redux
