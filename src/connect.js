@@ -1,5 +1,11 @@
 const connect = (mapStateToData, mapDispatchToThis) => {
   const app = getApp();
+  if (!mapStateToData || !mapDispatchToThis) {
+    throw Error('`mapStateToData` 和 `mapDispatchToThis` 不能为空');
+  }
+  if (typeof mapStateToData !== 'function' || typeof mapDispatchToThis !== 'function') {
+    throw Error('`mapStateToData` 和 `mapDispatchToThis` 必须为函数');
+  }
   return (pageConfig) => {
     const { onLoad: _onLoad, onUnload: _onUnload, ...rest } = pageConfig;
 
