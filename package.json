@@ -1,6 +1,6 @@
 {
   "name": "mp-redux",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Wechat Mini Program bindings for Redux",
   "main": "dist/mp-redux.js",
   "miniprogram": "dist/mp-redux.js",
